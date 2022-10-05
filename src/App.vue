@@ -1,10 +1,17 @@
 <script setup lang="ts">
-import Landing from './components/Landing/Landing.vue'
+import Home from './views/Home.vue'
+import BackgroundTriangle from './components/icons/BackgroundTriangle.vue';
+import SideNav from './components/SideNav.vue';
+import TopBar from './components/TopBar.vue';
 </script>
 
 <template>
-  <Landing  />
+    <TopBar />
+    <BackgroundTriangle />
+    <SideNav />
+    <RouterView />
 </template>
 
 <style scoped>
+
 </style>
