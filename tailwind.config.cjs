@@ -60,7 +60,7 @@ module.exports = {
         }
       },
       animation: {
-        'menuTransitionUp': 'menuTransitionUp 300ms linear',
+        'menuTransitionUp': 'menuTransitionUp 400ms linear',
         'menuTransitionDown': 'menuTransitionDown 400ms linear',
         'homeSlide': 'homeSlide 500ms ease-in-out',
         'wiggle': 'wiggle 400ms ease-in-out 3',
