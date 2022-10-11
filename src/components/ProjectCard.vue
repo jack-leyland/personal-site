@@ -51,14 +51,14 @@ var activeModal = ref(false)
                 :key="uuidv4()" v-html="props.longDesc">
             </div>
             <CloseButton v-if="activeModal" style-string="animate-fade absolute top-3 right-3 h-6 cursor-pointer" @click="activeModal = false"/>
-            <a :href="props.githubUrl">
+            <a :href="props.githubUrl" target="_blank" rel="noopener noreferrer">
                 <button class="absolute group bottom-4 left-4 drop-shadow-md font-alt font-light 
                         flex items-center justify-center bg-white h-14 w-48 p-3 
                         text-gray-800 hover:bg-mainPurple hover:text-white transistion-all duration-200">
                     <GithubLogo style-string=" h-6 mr-4 group-hover:fill-white" /> Source Code
                 </button>
             </a>
-            <a :href="props.liveUrl">
+            <a :href="props.liveUrl" target="_blank" rel="noopener noreferrer">
                 <button class="absolute group bottom-4 right-4 drop-shadow-md font-alt font-light 
                         flex items-center justify-center bg-white h-14 w-48 p-3 
                         text-gray-800 hover:bg-mainPurple hover:text-white transistion-all duration-200">

@@ -9,8 +9,8 @@ import LinkedinLogo from './icons/LinkedinLogo.vue';
     <button
         class="font-title text-black text-lg mt-16 mb-24 p-3 mr-4 bg-greenish hover:text-white hover:bg-black cursor-pointer transition-all duration-200">Download
         my resume</button>
-    <span class="font-title text-black"> or, contact: <span
-            class="text-mainPurple font-bold">jack@leyland.dev</span></span>
+    <span class="font-title text-black"> or, contact: <a href="mailto:jack@leyland.dev" target="_blank" rel="noopener noreferrer"><span
+            class="text-mainPurple font-bold">jack@leyland.dev</span></a></span>
     <div class="mb-2 font-alt text-gray-500 tracking-wide text-lg font-light">Find me elsewhere</div>
     <div class="flex">
         <a href="https://github.com/jack-leyland">
