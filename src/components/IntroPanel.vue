@@ -9,12 +9,12 @@ const onClick = () => {
 </script>
 
 <template>
-        <div class="mb-2 font-alt text-gray-500 tracking-wide text-lg font-light">Who am I?</div>
-        <span class="font-title text-4xl"><div class="inline-block">Hi!</div> I'm <span class="text-mainPurple">Jack</span>, a full-stack software
+        <div class="mb-2 -z-10 font-alt text-gray-500 tracking-wide text-lg font-light">Who am I?</div>
+        <span class="font-title text-2xl sm:text-4xl"><div class="inline-block">Hi!</div> I'm <span class="z-10 text-mainPurple">Jack</span>, a full-stack software
             engineer based in New York City.
         </span>
         <br>
-        <div class="relative group inline-flex pt-3 pb-3 pr-3 h-5 mt-2 text-lg 
+        <div class="z-10 relative group inline-flex pt-3 pb-3 pr-3 h-5 mt-2 text-md sm:text-lg 
                 items-center text-gray-500 hover:text-white cursor-pointer 
                 transition-all duration-300 after:z-[-1] after:bg-mainPurple 
                 after:absolute after:left-0 after:bottom-0 after:h-[100%] 

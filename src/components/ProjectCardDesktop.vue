@@ -1,8 +1,9 @@
 <script setup lang="ts">
 import { v4 as uuidv4 } from 'uuid';
-import { ref } from 'vue';
+import { Ref, ref } from 'vue';
 import GithubLogo from './icons/GithubLogo.vue';
 import CloseButton from './icons/CloseButton.vue';
+
 const props = defineProps({
     title: String,
     shortDesc: String,
@@ -14,11 +15,12 @@ const props = defineProps({
 });
 
 const imagePath = "/img/" + props.thumbnailFile
-var activeModal = ref(false)
+var activeModal: Ref<boolean> = ref(false)
+
 </script>
 
 <template>
-    <div class="flex h-[400px] w-[950px] m-auto mb-12">
+    <div class="animate-fade flex h-[400px] w-[950px] m-auto mb-12">
         <div class="w-[200px] mr-8">
             <h1 class="font-title text-2xl font-bold">{{props.title}}</h1>
             <br>

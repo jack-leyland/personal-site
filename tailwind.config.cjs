@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'sm': '800px',
+      },
       colors: {
         mainPurple: "#9933FF",
         greenish: "#45FCE5",

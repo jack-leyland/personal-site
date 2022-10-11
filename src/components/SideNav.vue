@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { store } from "../store"
 import { useRouter, useRoute} from 'vue-router'
-import { watch } from 'vue'
+import { computed, Ref, watch } from 'vue'
 
 
 const router = useRouter()
@@ -44,10 +44,12 @@ const itemStyling = (id:string) => {
     }
 }
 
+const render: Ref<boolean> = computed(() => store.screenWidth > 800)
+
 </script>
 
 <template>
-    <div 
+    <div v-if="render"
     :class="menuStyling()">
         <div v-for="{id, text} in navItems"
         :class="itemStyling(id)"

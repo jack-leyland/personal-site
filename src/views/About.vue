@@ -5,18 +5,21 @@ import LinkedinLogo from "../components/icons/LinkedinLogo.vue";
 </script>
 
 <template>
-    <div class="animate-fade absolute flex justify-center top-0 pt-56 w-full h-[100vh] ">
-        <div class="w-[45vw] font-title flex">
+    <div class="no-scrollbar animate-fade absolute flex justify-center top-0 pt-24 pb-8 sm:pb-0 sm:pt-56 w-full overflow-scroll h-[98vh] sm:h-[100vh]">
+        <div class=" w-[80vw] sm:w-[45vw] font-title flex-row sm:flex">
             <div class="mr-2">
                 <h1 class="font-bold text-2xl mb-5">My name is Jack Leyland. Nice to meet you!</h1>
                 <p class="font-alt font-light text-gray-400">Reach Out</p>
-                <p class="font-alt text-mainPurple mb-5">jack@leyland.dev</p>
-                <div class="flex">
+                <p class="font-alt text-mainPurple mb-5"><a href="mailto:jack@leyland.dev" target="_blank"
+                        rel="noopener noreferrer">jack@leyland.dev</a></p>
+                <div class="flex mb-4 sm:mb-0">
                     <a href="https://github.com/jack-leyland">
-                        <GithubLogo styleString="h-6 w-6 mr-8 hover:fill-mainPurple transition-all duration-300 cursor-pointer"/>
+                        <GithubLogo
+                            styleString="h-6 w-6 mr-8 hover:fill-mainPurple transition-all duration-300 cursor-pointer" />
                     </a>
                     <a href="https://www.linkedin.com/in/jack-leyland-09b31b79/">
-                        <LinkedinLogo styleString="h-6 w-6 cursor-pointer hover:fill-mainPurple transition-all duration-300" />
+                        <LinkedinLogo
+                            styleString="h-6 w-6 cursor-pointer hover:fill-mainPurple transition-all duration-300" />
                     </a>
                 </div>
             </div>
@@ -42,3 +45,16 @@ import LinkedinLogo from "../components/icons/LinkedinLogo.vue";
         </div>
     </div>
 </template>
+
+<style scoped>
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .no-scrollbar {
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
+    }
+    </style>
