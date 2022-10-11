@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { defineProps, reactive } from "vue";
 const props = defineProps({
     styleString: String,
 });

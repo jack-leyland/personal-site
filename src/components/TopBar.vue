@@ -9,7 +9,7 @@ const routeHome = () => {
 
 <template>
   <header>
-    <div class=" animate-fade z-30 relative fixed w-full h-24 flex items-center mt-6">
+    <div class="fixed animate-fade z-30  fixed w-full h-24 flex items-center mt-6">
       <div
         class=" group absolute left-6 w-64 h-24 bg-greenish flex justify-center items-center hover:bg-black cursor-pointer transition-all duration-200"
         @click="routeHome">

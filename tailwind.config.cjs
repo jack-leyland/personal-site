@@ -38,7 +38,7 @@ module.exports = {
           },
           '100%': {
             right: '10%',
-            top: '45%',
+            top: '55%',
             'font-size': '4.5rem'
           }
         },

@@ -37,7 +37,7 @@ import LinkedinLogo from "../components/icons/LinkedinLogo.vue";
                 <br>
                 <br>
                 I also hold a Bachelor's degree in Finance from <strong>Univeristy of Connecticut</strong>.
-                In my former life, I was in the financial services industry in New York City for three years.
+                In my former life, I was an Analyst in the financial services industry in New York City for three years.
             </p>
         </div>
     </div>
