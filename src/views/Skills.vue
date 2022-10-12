@@ -9,11 +9,8 @@ var renderMobile: Ref<boolean> = computed(()=> store.screenWidth < 800)
 </script>
     
 <template>
-    <div v-if="!renderMobile" class="animate-fade tracking-wide fixed font-light font-alt text-gray-500 text-4xl top-48 left-[15vw]">
-        My Skills
-    </div>
     <div class="fixed z-10 animate-fade w-[46vw] ml-[26vw] mr-[26vw] pt-24 sm:pt-56">
-        <div v-if="renderMobile"
+        <div 
             class="animate-fade tracking-wide font-light font-alt text-gray-500 text-4xl mb-8 m-auto">
             My Skills
         </div>
