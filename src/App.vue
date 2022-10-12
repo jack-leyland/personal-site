@@ -3,18 +3,19 @@ import BackgroundTriangle from './components/icons/BackgroundTriangle.vue';
 import SideNav from './components/SideNav.vue';
 import TopBar from './components/TopBar.vue';
 import { onBeforeUnmount, onMounted } from 'vue';
-import {store} from './store'
+import { store } from './store'
+import debounce from 'lodash.debounce'
 
 const handleResize = () => {
     store.setScreenWidth(window.innerWidth || document.documentElement.clientWidth)
 }
 
 onMounted(() => {
-    window.addEventListener("resize", handleResize);
+    window.addEventListener("resize", debounce(handleResize, 200));
 })
 
 onBeforeUnmount(() => {
-    window.addEventListener("resize", handleResize);
+    window.removeEventListener("resize", handleResize);
 })
 
 </script>

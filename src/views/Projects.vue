@@ -49,18 +49,18 @@ const projects: {
         },
     ]
 
-var renderMobile: Ref<boolean> = computed(()=> store.screenWidth < 1400)
+var renderMobile: Ref<boolean> = computed(()=> store.screenWidth < 1200)
 
 </script>
 
 <template>
-    <div v-if="!renderMobile"
+    <!-- <div v-if="!renderMobile"
         class="animate-fade tracking-wide fixed font-light font-alt text-gray-500 text-4xl top-48 left-[15vw]">
         My Work
-    </div>
-    <div class="z-10 pt-24 sm:pt-48 flex-col relative animate-fade">
-        <div v-if="renderMobile"
-            class="animate-fade tracking-wide font-light font-alt text-gray-500 text-4xl w-[80vw] mb-8 m-auto">
+    </div> -->
+    <div class="z-10 pt-24 sm:pt-48 flex-col relative animate-fade w-[80vw] sm:w-[70vw] m-auto">
+        <div
+            class="animate-fade tracking-wide font-light font-alt text-gray-500 text-4xl w-full mb-8 m-auto">
             My Work
         </div>
         <ProjectCardDesktop v-if="!renderMobile" v-for="data in projects" v-bind="data"  :key="uuidv4()" />

@@ -20,7 +20,7 @@ var activeModal: Ref<boolean> = ref(false)
 </script>
 
 <template>
-    <div class="animate-fade flex h-[400px] w-[950px] m-auto mb-12">
+    <div class="animate-fade flex justify-center m-auto mb-12">
         <div class="w-[200px] mr-8">
             <h1 class="font-title text-2xl font-bold">{{props.title}}</h1>
             <br>
