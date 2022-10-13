@@ -49,7 +49,7 @@ var activeModal: Ref<boolean> = ref(false)
         </div>
         <div class="relative h-[400px] w-[750px]">
             <img class="w-full h-full drop-shadow-md" :src="imagePath" :key="uuidv4()">
-            <div class="animate-fade font-alt p-12 text-gray-800 items-center absolute top-0 left-0 h-full w-full backdrop-blur-md border-2" v-if="activeModal"
+            <div class="animate-fade font-alt p-12 text-gray-800 items-center absolute top-0 left-0 h-full w-full blur-backdrop" v-if="activeModal"
                 :key="uuidv4()" v-html="props.longDesc">
             </div>
             <CloseButton v-if="activeModal" style-string="animate-fade absolute top-3 right-3 h-6 cursor-pointer" @click="activeModal = false"/>
@@ -82,6 +82,16 @@ var activeModal: Ref<boolean> = ref(false)
 </template>
 
 <style scoped>
+@supports (backdrop-filter: blur(12px)){
+    .blur-backdrop {
+        backdrop-filter: blur(12px)
+    }
+}
+@supports not (backdrop-filter: blur(12px)){
+    .blur-backdrop {
+        background-color: rgb(212 212 216);
+    }
+}
 .gradient {
     background: linear-gradient(0deg, rgb(188, 188, 188, 1) 0%, rgba(188, 188, 188, 0.99) 80%, rgba(0, 212, 255, 0) 100%);
 }

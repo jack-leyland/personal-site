@@ -12,6 +12,7 @@
     "lodash.debounce": "^4.0.8",
     "uuid": "^9.0.0",
     "vue": "^3.2.37",
+    "vue-gtag": "^2.0.1",
     "vue-router": "^4.1.5"
   },
   "devDependencies": {

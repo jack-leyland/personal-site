@@ -6,6 +6,7 @@ import { onBeforeUnmount, onMounted } from 'vue';
 import { store } from './store'
 import debounce from 'lodash.debounce'
 
+
 const handleResize = () => {
     store.setScreenWidth(window.innerWidth || document.documentElement.clientWidth)
 }
