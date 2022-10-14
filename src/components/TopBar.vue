@@ -28,7 +28,7 @@ var active: Ref<boolean> = ref(false)
 
 <template>
   <header>
-    <div v-if="!active" class="z-40 fixed w-full h-12 sm:h-24 ">
+    <div v-if="!active" class="z-40 fixed top-0 w-full h-12 sm:h-24 ">
       <div
         class="animate-fade z-30 mt-2 sm:mt-6 group absolute left-2 sm:left-6 h-12 sm:h-24 w-24 sm:w-64 bg-greenish flex justify-center items-center hover:bg-black cursor-pointer transition-all duration-200"
         @click="routeHome">
