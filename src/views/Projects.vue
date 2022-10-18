@@ -34,18 +34,18 @@ const projects: {
                 " <a style='color:blue' href='https://powerapi-ng.github.io/smartwatts.html'> SmartWatts <a> tool developed by the SPIRALS Reasearch Group. <br> <br>"
                 + "The live demo provides an example of a NodeWatts energy profile generated for a demo server as shown in the tool's GUI. For more information on the tool's methodology, please email me for a copy of the dissertation paper.",
             thumbnailFile: "nodewatts.png",
-            githubUrl: "https://github.com/jack-leyland/GreenHouse",
-            liveUrl: "https://epc-site-frontend.vercel.app/",
+            githubUrl: "https://github.com/jack-leyland/nodewatts",
+            liveUrl: "https://leyland.dev/nodewatts-demo",
             tech: ["python", "c", "react", "javascript", "nodejs", "mongodb", "linux"]
         },
         {
             title: "Personal Website",
             shortDesc: "My personal website.",
             longDesc: "",
-            thumbnailFile: "nodewatts.png",
-            githubUrl: "https://github.com/jack-leyland/GreenHouse",
-            liveUrl: "https://epc-site-frontend.vercel.app/",
-            tech: ["typescript", "vuejs", "nodejs"]
+            thumbnailFile: "personalsite.png",
+            githubUrl: "https://github.com/jack-leyland/personal-site",
+            liveUrl: "https://leyland.dev",
+            tech: ["typescript", "vuejs"]
         },
     ]
 
@@ -54,10 +54,6 @@ var renderMobile: Ref<boolean> = computed(()=> store.screenWidth < 1200)
 </script>
 
 <template>
-    <!-- <div v-if="!renderMobile"
-        class="animate-fade tracking-wide fixed font-light font-alt text-gray-500 text-4xl top-48 left-[15vw]">
-        My Work
-    </div> -->
     <div class="z-10 pt-24 sm:pt-48 flex-col relative animate-fade w-[80vw] sm:w-[70vw] m-auto">
         <div
             class="animate-fade tracking-wide font-light font-alt text-gray-500 text-4xl w-full mb-8 m-auto">

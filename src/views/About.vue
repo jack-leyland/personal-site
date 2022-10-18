@@ -6,7 +6,7 @@ import LinkedinLogo from "../components/icons/LinkedinLogo.vue";
 
 <template>
     <div class="no-scrollbar animate-fade absolute flex justify-center top-0 pt-24 pb-8 sm:pb-0 sm:pt-56 w-full overflow-scroll h-[98vh] sm:h-[100vh]">
-        <div class=" w-[80vw] sm:w-[45vw] font-title flex-row sm:flex">
+        <div class=" w-[80vw] sm:w-[55vw] font-title flex-row sm:flex">
             <div class="mr-2">
                 <h1 class="font-bold text-2xl mb-5">My name is Jack Leyland. Nice to meet you!</h1>
                 <p class="font-alt font-light text-gray-400">Reach Out</p>
