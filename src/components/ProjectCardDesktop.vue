@@ -42,7 +42,7 @@ var activeModal: Ref<boolean> = ref(false)
                 </svg>
                 <div class="font-alt">Learn more</div>
             </div>
-            <h2 class="font-alt font-light mt-4 mb-2">Technology Stack</h2>
+            <h2 class="font-alt font-light mt-4 mb-2">Technologies</h2>
             <div class="w-full flex flex-wrap">
                 <img class="h-6 mr-2 mb-2" v-for="item in props.tech" :src="'/svg/'+item+'.svg'" :key="uuidv4()">
             </div>

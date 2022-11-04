@@ -16,17 +16,7 @@ const projects: {
     liveUrl: string,
     tech: string[]
 }[] = [
-        {
-            title: "GreenHouse",
-            shortDesc: "A platform to help UK homeowners improve the energy efficiency of their households. Developed by our student team at Imperial College London. ",
-            longDesc: "GreenHouse makes use of the UK Energy Performance certificate API to allow uses to more convieniently analyze their home's energy efficiency. <br> <br>" +
-                "The platform also gives users a means of managing efficiency improvements and provides crowd-sourced cost estimates for common improvements made in their neighborhood.",
-            thumbnailFile: "greenhouse.png",
-            githubUrl: "https://github.com/jack-leyland/GreenHouse",
-            liveUrl: "https://epc-site-frontend.vercel.app/",
-            tech: ["typescript", "python", "graphql", "django", "nextjs"]
-        },
-        {
+{
             title: "NodeWatts",
             shortDesc: "A Linux tool for energy profiling NodeJS web server codebases at function-level granularity. Developed as a master's dissertation project at Imperial College London.",
             longDesc: "NodeWatts is a Linux CLI tool and accompanying GUI which implements a new approach for generating power profiles of NodeJS web server code at function-level granularity. "
@@ -38,6 +28,17 @@ const projects: {
             liveUrl: "https://leyland.dev/nodewatts-demo",
             tech: ["python", "c", "react", "javascript", "nodejs", "mongodb", "linux"]
         },
+        {
+            title: "GreenHouse",
+            shortDesc: "A platform to help UK homeowners improve the energy efficiency of their households. Developed by our student team at Imperial College London. ",
+            longDesc: "GreenHouse makes use of the UK Energy Performance certificate API to allow uses to more convieniently analyze their home's energy efficiency. <br> <br>" +
+                "The platform also gives users a means of managing efficiency improvements and provides crowd-sourced cost estimates for common improvements made in their neighborhood.",
+            thumbnailFile: "greenhouse.png",
+            githubUrl: "https://github.com/jack-leyland/GreenHouse",
+            liveUrl: "https://epc-site-frontend.vercel.app/",
+            tech: ["typescript", "python", "graphql", "django", "nextjs"]
+        },
+
         {
             title: "Personal Website",
             shortDesc: "My personal website.",

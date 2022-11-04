@@ -23,7 +23,7 @@ import LinkedinLogo from "../components/icons/LinkedinLogo.vue";
                     </a>
                 </div>
             </div>
-            <p class="font-alt font-light tracking-wide">Way back in 2020, I decided it
+            <p class="font-alt font-light tracking-wide pb-24">Way back in 2020, I decided it
                 was time to align my career with my love for computers and building things. So, I dropped everything
                 and went to get my Master's degree in Computing at <strong>Imperial College London</strong>.
                 I have been passionately involved in computing ever since.
