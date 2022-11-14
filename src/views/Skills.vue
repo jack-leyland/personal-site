@@ -2,7 +2,7 @@
 import { computed, Ref } from "vue";
 import {store} from '../store'
 
-const categoryStyle: string = "relative mb-4 mt-4 font-alt text-gray-800 text-xl after:bg-greenish after:z-[-1] after:absolute after:left-0 after:bottom-0 after:h-[50%] after:w-36"
+const categoryStyle: string = "relative mb-4 mt-4 font-alt text-gray-800 text-xl after:bg-greenish after:z-[-1] after:absolute after:left-0 after:bottom-0 after:h-[50%] after:w-48"
 
 </script>
     
@@ -13,10 +13,10 @@ const categoryStyle: string = "relative mb-4 mt-4 font-alt text-gray-800 text-xl
             My Skills
         </div>
         <h1 :class="categoryStyle">Languages</h1>
-        <span class="font-alt">JavaScript, TypeScript, Python, C++, Java, CSS, HTML</span>
+        <span class="font-alt text-gray-700">JavaScript, TypeScript, Python, C++, Java, CSS, HTML, SQL</span>
         <h1 :class="categoryStyle">Frameworks</h1>
-        <span class="font-alt">React, Vue, Express</span>
-        <h1 :class="categoryStyle">Technologies</h1>
-        <span class="font-alt">NodeJS, Tailwind CSS, Linux, Git, Docker</span>
+        <span class="font-alt text-gray-700">React, Vue, Next.js, Express, React Native</span>
+        <h1 :class="categoryStyle">Tools & Technologies</h1>
+        <span class="font-alt text-gray-700">Node.js, TailwindCSS, MongoDB, Mongoose ORM, GraphQL, SQLite, Linux, Git, Docker, Nginx, JUnit, JMock</span>
     </div>
 </template>
