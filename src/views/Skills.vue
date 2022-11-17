@@ -15,8 +15,10 @@ const categoryStyle: string = "relative mb-4 mt-4 font-alt text-gray-800 text-xl
         <h1 :class="categoryStyle">Languages</h1>
         <span class="font-alt text-gray-700">JavaScript, TypeScript, Python, C++, Java, CSS, HTML, SQL</span>
         <h1 :class="categoryStyle">Frameworks</h1>
-        <span class="font-alt text-gray-700">React, Vue, Next.js, Express, React Native</span>
-        <h1 :class="categoryStyle">Tools & Technologies</h1>
-        <span class="font-alt text-gray-700">Node.js, TailwindCSS, MongoDB, Mongoose ORM, GraphQL, SQLite, Linux, Git, Docker, Nginx, JUnit, JMock</span>
+        <span class="font-alt text-gray-700">React, React Native, Vue, Next.js, Express.js, TailwindCSS, Django, Flask</span>
+        <h1 :class="categoryStyle">Technologies</h1>
+        <span class="font-alt text-gray-700">Node.js, MongoDB, SQLite, PostgreSQL, GraphQL, REST APIs, Nginx, JUnit, JMock Mongoose ORM, </span>
+        <h1 :class="categoryStyle">Developer Tools</h1>
+        <span class="font-alt text-gray-700">Linux, Git, Docker, Heroku, Digital Ocean Droplets</span>
     </div>
 </template>
