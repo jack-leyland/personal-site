@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { computed, Ref } from "vue";
-import {store} from '../store'
 
 const categoryStyle: string = "relative mb-4 mt-4 font-alt text-gray-800 text-xl after:bg-greenish after:z-[-1] after:absolute after:left-0 after:bottom-0 after:h-[50%] after:w-48"
 

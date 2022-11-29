@@ -36,7 +36,6 @@ const menuStyling = () => {
 
 const itemStyling = (id:string) => {
     if (store.sideNav) return sideItemStyle
-    console.log(route.name)
     if (route.name?.toString().toLowerCase() === id){
         return topBarItemStyle + " after:w-[100%]"
     } else {

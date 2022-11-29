@@ -57,4 +57,4 @@ import LinkedinLogo from "../components/icons/LinkedinLogo.vue";
         scrollbar-width: none;
         /* Firefox */
     }
-    </style>
+</style>
