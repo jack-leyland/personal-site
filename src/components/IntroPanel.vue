@@ -11,7 +11,7 @@ const onClick = () => {
 <template>
         <div class="mb-2 -z-10 font-alt text-gray-500 tracking-wide text-lg font-light">Who am I?</div>
         <span class="font-title text-2xl sm:text-4xl"><div class="inline-block">Hi!</div> I'm <span class="z-10 text-mainPurple">Jack</span>, a full-stack software
-            engineer.
+            engineer based in New York City.
         </span>
         <br>
         <div class="z-10 relative group inline-flex pt-3 pb-3 pr-3 h-5 mt-2 text-md sm:text-lg 
